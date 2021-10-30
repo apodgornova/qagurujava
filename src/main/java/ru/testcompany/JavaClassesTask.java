@@ -23,7 +23,7 @@ public class JavaClassesTask {
         dog.sayWeight();
         dog.makeVoice();
 
-        cat.gettingFat();
+        cat.gettingFat(10);
         cat.sayName();
         System.out.println("I'm ate too much");
         cat.sayWeight();

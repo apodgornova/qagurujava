@@ -14,8 +14,10 @@ public class Pet {
         System.out.println("My weight is " + weight);
     }
 
-    public void gettingFat() {
-        weight = weight + 10;
+    public int gettingFat(int somefat) {
+        weight = weight + somefat;
+        return weight;
+
     }
 
     public void sayName() {
