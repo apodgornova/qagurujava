@@ -17,7 +17,6 @@ public class Pet {
     public int gettingFat(int somefat) {
         weight = weight + somefat;
         return weight;
-
     }
 
     public void sayName() {
