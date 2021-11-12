@@ -18,6 +18,10 @@ public class JavaClassesTask {
         dog.sayWeight();
         dog.makeVoice();
 
+        System.out.println("We are " + Pet.commonName + " class");
+        cat.commonName = "Cat";
+        System.out.println("We are " + Pet.commonName + " class now. Dogs too :)");
+
         cat.gettingFat(10);
         cat.sayName();
         System.out.println("I ate too much");
