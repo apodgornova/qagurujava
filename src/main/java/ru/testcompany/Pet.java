@@ -61,4 +61,19 @@ public class Pet {
         System.out.println("My name is " + getName());
     }
 
+    static class Body {
+
+        static int head = 1;
+        static int paws = 4;
+        static int tail = 1;
+
+        public void showMyBodyParts() {
+
+            System.out.println("I have " + head + " head");
+            System.out.println("I have " + paws + " paws");
+            System.out.println("I have " + tail + " tail");
+        }
+
+    }
+
 }
