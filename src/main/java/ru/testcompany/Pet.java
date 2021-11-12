@@ -45,20 +45,20 @@ public class Pet {
     }
 
     public void makeVoice() {
-        System.out.println("I say " + voice);
+        System.out.println("I say " + getVoice());
     }
 
     public void sayWeight() {
-        System.out.println("My weight is " + weight);
+        System.out.println("My weight is " + getWeight());
     }
 
     public int gettingFat(int somefat) {
-        weight = weight + somefat;
+        setWeight(weight + somefat);
         return weight;
     }
 
     public void sayName() {
-        System.out.println("My name is " + name);
+        System.out.println("My name is " + getName());
     }
 
 }
