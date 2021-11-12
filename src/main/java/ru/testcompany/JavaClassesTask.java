@@ -4,16 +4,11 @@ public class JavaClassesTask {
 
     public static void main(String[] args) {
 
-        Pet cat = new Pet();
-        Pet dog = new Pet();
+        Pet cat = new Pet(4, "Barsik");
+        Pet dog = new Pet(6, "Stef");
 
-        cat.name = "Barsik";
-        cat.weight = 4;
-        cat.voice = "meow";
-
-        dog.name = "Stef";
-        dog.weight = 6;
-        dog.voice = "woof";
+        cat.setVoice("meow");
+        dog.setVoice("woof");
 
         cat.sayName();
         cat.sayWeight();
@@ -25,7 +20,7 @@ public class JavaClassesTask {
 
         cat.gettingFat(10);
         cat.sayName();
-        System.out.println("I'm ate too much");
+        System.out.println("I ate too much");
         cat.sayWeight();
 
     }
