@@ -18,6 +18,7 @@ public class JavaClassesTask {
         dog.sayWeight();
         dog.makeVoice();
 
+        //static variable change
         System.out.println("We are " + Pet.commonName + " class");
         cat.commonName = "Cat";
         System.out.println("We are " + Pet.commonName + " class now. Dogs too :)");
