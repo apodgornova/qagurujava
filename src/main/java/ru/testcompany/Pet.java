@@ -8,13 +8,8 @@ public class Pet {
     String name;
     int weight;
 
-    //constructors
+    //constructor
     public Pet(int weight, String name) {
-        this.weight = weight;
-        this.name = name;
-    }
-
-    public Pet(int weight, String name, String voice) {
         this.weight = weight;
         this.name = name;
     }
@@ -30,10 +25,6 @@ public class Pet {
 
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public int getWeight() {
@@ -52,8 +43,8 @@ public class Pet {
         System.out.println("My weight is " + getWeight());
     }
 
-    public int gettingFat(int somefat) {
-        setWeight(weight + somefat);
+    public int gettingFat(int someFat) {
+        setWeight(weight + someFat);
         return weight;
     }
 
